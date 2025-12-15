@@ -1,42 +1,61 @@
-# YouTube Subtitle Downloader
+# 📺 YouTube Subtitle Downloader
+
+<div align="center">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pakmingc/download-youtube-subtitles/blob/main/download_youtube_subtitles.ipynb)
 
-This Python script allows you to download English or Chinese subtitles from a YouTube video and save them as a text file in your Google Drive. The script is designed to run in a Google Colab notebook.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Colab-F37626?style=for-the-badge&logo=google-colab&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 
-## Features
+**Download YouTube subtitles to text files via Google Colab**
 
-- Download English subtitles (if available) or Chinese subtitles (if English is not available) from a YouTube video.
-- Save the subtitles as a text file in your Google Drive.
-- Display the subtitle content in the Colab notebook output.
+</div>
 
-## Prerequisites
+---
 
-- Python 3.x
-- Google account (for accessing Google Colab and Google Drive)
+## 🎯 Overview
 
-## Usage
+A simple Python tool to extract and download subtitles from YouTube videos. Supports English and Chinese subtitles with automatic fallback, saving directly to Google Drive.
 
-1. Open the YouTube Subtitle Downloader notebook in Google Colab.
+## ✨ Features
 
-2. Run the notebook cells in order.
+- 📝 **Subtitle Extraction** - Download video captions
+- 🌐 **Multi-Language** - English and Chinese support
+- 🔄 **Auto-Fallback** - Falls back to Chinese if English unavailable
+- ☁️ **Cloud Storage** - Save directly to Google Drive
+- 📋 **Preview** - Display subtitles in notebook output
 
-3. When prompted, enter the YouTube video URL or ID for which you want to download subtitles.
+---
 
-4. The script will download the English subtitles (if available) or Chinese subtitles (if English is not available) for the specified YouTube video.
+## 🚀 Quick Start
 
-5. The subtitles will be saved as a text file in your Google Drive under the filename `VIDEO_TITLE.txt`.
+1. Click the "Open in Colab" badge above
+2. Run all notebook cells
+3. Enter YouTube video URL or ID
+4. Subtitles saved to Google Drive as `VIDEO_TITLE.txt`
 
-6. The subtitle content will also be displayed in the Colab notebook output.
+---
 
-## License
+## 🛠️ Tech Stack
 
-This project is licensed under the [MIT License](LICENSE).
+```
+Python 3.x
+├── youtube_transcript_api   # Subtitle extraction
+├── Google Colab             # Runtime
+└── Google Drive             # Storage
+```
 
-## Contributing
+---
 
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## 📁 Output
 
-## Contact
+| Format | Location |
+|--------|----------|
+| `.txt` | Google Drive root |
 
-If you have any questions or need further assistance, please feel free to contact the project maintainer at [pakmingc2@gmail.com](mailto:pakmingc2@gmail.com).
+---
+
+## 📄 License
+
+MIT License
