@@ -56,6 +56,10 @@ Python 3.x
 
 ---
 
+## 📫 Contact
+
+📧 pakmingc2@gmail.com
+
 ## 📄 License
 
 MIT License
